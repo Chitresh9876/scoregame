@@ -5,9 +5,9 @@ const hold=document.querySelector(".hold");
 const player0=document.querySelector(".player0");
 const player1=document.querySelector(".player1");
 let cscore0=document.querySelector(".cscore0");
-const cscore1=document.querySelector(".cscore1");
-const score0=document.querySelector(".score0");
-const score1=document.querySelector(".score1");
+let cscore1=document.querySelector(".cscore1");
+let score0=document.querySelector(".score0");
+let score1=document.querySelector(".score1");
 const dice=document.querySelector(".dice");
 
 
@@ -42,7 +42,7 @@ rolldice.addEventListener('click',function(){
 });
 newgame.addEventListener('click',function(){
     console.log("new game");
-     player1.style.opacity="0.4";
+    player1.style.opacity="0.4";
     player0.style.opacity="0.6";
     cscore1.textContent="0";
     initial();
@@ -79,9 +79,9 @@ const held=function(){
     
 }
 const win=function(){
-if(Number(score0.textContent)>=100){
-alert("Player 1 Wins🎉");
-initial();
+if(Number(score0.textContent)>=100)
+{
+    alert("Player 1 Wins🎉");
 }
 else if(Number(score1.textContent)>=100){
 alert("Player 2 Wins🎉");

@@ -86,6 +86,8 @@ initial()
 const initial=function(){
 cscore0.textContent=0;
 cscore1.textContent=0;
+score0.textContent=0;
+score1.textContent=0;
 dice.style.display="none";
 num=0;
 i=0;

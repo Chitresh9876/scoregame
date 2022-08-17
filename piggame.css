@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background-image: linear-gradient(to top left, #922c9a 40%,#f5a893 60%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+    border-radius: 5px 5px 5px;
+    height: 100vh;   
+
+}
+
+.player{
+    
+    opacity: 0.4;
+    background-color: #fff;
+    width:30%;
+    height: 60vh;
+    text-align: center;
+    padding: 1rem;
+    font-size: x-large;
+    font-weight: bold;
+    
+    
+   
+}
+
+.player0{
+    border-radius: 10px 0px 0px 10px;
+    opacity: 0.6;
+}
+.player1{
+    border-radius: 0px 10px 10px 0px;
+    opacity: 0.4;
+}
+
+.score{
+    margin-top: 4rem;
+    font-size: xxx-large;
+    color: rgb(233, 42, 42);
+}
+
+.cscore{
+    margin-top: 9rem;
+    margin-left: 6em;
+    margin-right: 6em;
+    height: 5rem;
+    line-height: 2rem;
+    width: 50%;
+    font-size: medium;
+    background-color: rgb(233, 42, 42);
+    color: #fff;
+    border-radius: 10px ;
+}
+p{
+    font-size: xx-large;
+}
+
+.option{
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid white;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    opacity: 0.8;
+    z-index: 1;
+    
+}
+.newgame{
+    margin-top: 2rem;
+}
+.rolldice{
+    margin-top: 15rem;
+}
+.hold{
+    margin-top: 20rem;
+}
+.dice{
+    height: 4rem;
+    position: absolute;
+    margin-top: 6rem;
+    opacity: 1;
+    z-index: 1;
+    border-radius: 7px;
+}
+
+.rule>p{
+    
+    margin-left: 1rem;
+    font-size: medium;
+}

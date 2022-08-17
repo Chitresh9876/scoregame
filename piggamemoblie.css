@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+body{
+    background-image: linear-gradient(to top left, #922c9a 40%,#f5a893 60%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cscore{
+    margin-left: 1.5em;
+    margin-top: 5em;
+    height: 4rem;
+    width: 70%;
+    font-size: small;
+    line-height: 1rem;
+}
+
+.player{
+    height: 40vh;
+    font-size: large;
+}
+p{
+    font-size: large;
+}
+.option{
+    padding: 0.25rem 0.5rem;
+}
+.newgame{
+    margin-top: 3rem;
+}
+.rolldice{
+    margin-top: 12rem;
+}
+.hold{
+    margin-top: 15rem;
+}
+.dice{
+    height: 3rem;
+}
+.rule{
+    
+    margin-top: 1rem;
+    margin-right: 1rem;
+   
+}
+.rule>p{
+    font-size: small;
+}

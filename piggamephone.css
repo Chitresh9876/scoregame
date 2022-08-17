@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+body{
+    background-image: linear-gradient(to top left, #922c9a 40%,#f5a893 60%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cscore{
+    margin-left: 3em;
+    margin-top: 6em;
+    height: 6rem;
+    width: 60%;
+    font-size: large;
+}
+.option{
+    padding: 0.25rem 0.5rem;
+}
+
+.player{
+    height: 50vh;
+    font-size: large;
+}
+p{
+    font-size: large;
+}
+.rule{
+    
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: small;
+}
+.rule>p{
+        font-size: small;
+}

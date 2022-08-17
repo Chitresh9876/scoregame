@@ -76,11 +76,14 @@ const held=function(){
     
 }
 const win=function(){
-if(Number(score0.textContent)>=100)
+if(Number(score0.textContent)>=100){
 alert("Player 1 Wins🎉");
-else if(Number(score1.textContent)>=100)
+initial();
+}
+else if(Number(score1.textContent)>=100){
 alert("Player 2 Wins🎉");
-initial()
+initial();
+}
 }
 
 const initial=function(){

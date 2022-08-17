@@ -42,6 +42,9 @@ rolldice.addEventListener('click',function(){
 });
 newgame.addEventListener('click',function(){
     console.log("new game");
+     player1.style.opacity="0.4";
+    player0.style.opacity="0.6";
+    cscore1.textContent="0";
     initial();
 });
 
